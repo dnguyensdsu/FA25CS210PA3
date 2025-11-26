@@ -128,7 +128,7 @@ void printPath(pair<int,int> exitcell,
     }
     // checks wall
     if (maze[ent_r][ent_c] == 1) {
-        return true;
+        return false;
     }
     // checks if we already explored the part
     if (visited[ent_r][ent_c]) {
@@ -147,8 +147,25 @@ void printPath(pair<int,int> exitcell,
         // uses dr and dc
         int nextRow = ent_r + dr[direction];
         int nextCol = ent_c + dc[direction];
-    }
 
+        // skips explored / blocked parts of maze
+        if (maze[nextRow][nextCol] == 1) {
+            continue;
+        }
+        if (visited[nextRow][nextCol]) {
+            continue;
+        }
+
+        // stores the parents
+        parent_r[nextRow][nextCol] = ent_r;
+        parent_c[nextRow][nextCol] = ent_c;
+
+        // recursive call
+        if (dfs(nextRow, nextCol, maze, visited, parent_r, parent_c, exit_r,exit_c)) {
+            return true;
+        }
+    }
+// return false bc the path is invalid
     return false;
 }
 
