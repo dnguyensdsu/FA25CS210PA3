@@ -142,6 +142,13 @@ void printPath(pair<int,int> exitcell,
         return true;
     }
 
+    // the maze part, this loop explores the maze in all direction
+    for (int direction = 0; direction < 4; direction++) {
+        // uses dr and dc
+        int nextRow = ent_r + dr[direction];
+        int nextCol = ent_c + dc[direction];
+    }
+
     return false;
 }
 
