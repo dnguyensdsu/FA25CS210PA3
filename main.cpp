@@ -153,6 +153,10 @@ void printPath(pair<int,int> exitcell,
         int nextRow = ent_r + dr[direction];
         int nextCol = ent_c + dc[direction];
 
+        // checks the bounds of the mazz
+        if (nextRow < 0 || nextRow >= rows || nextCol < 0 || nextCol >= cols) {
+            continue;
+        }
         // skips explored / blocked parts of maze
         if (maze[nextRow][nextCol] == 1) {
             cout << "check 5" << endl;
