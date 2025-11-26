@@ -26,8 +26,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbc7305d-ba4a-422b-b164-7b31f0d14320" name="Changes" comment="Visited spot added.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fbc7305d-ba4a-422b-b164-7b31f0d14320" name="Changes" comment="base cases for exploration + recursive call implemented">
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -111,7 +110,7 @@
       <workItem from="1764100254790" duration="2351000" />
       <workItem from="1764143471596" duration="463000" />
       <workItem from="1764181897480" duration="580000" />
-      <workItem from="1764198089540" duration="316000" />
+      <workItem from="1764198089540" duration="705000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit.">
       <option name="closed" value="true" />
@@ -161,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764143830780</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="base cases for exploration + recursive call implemented">
+      <option name="closed" value="true" />
+      <created>1764198705512</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764198705512</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +195,7 @@
     <MESSAGE value="DFS method parameters + base cases added." />
     <MESSAGE value="Exit check for maze added." />
     <MESSAGE value="Visited spot added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Visited spot added." />
+    <MESSAGE value="base cases for exploration + recursive call implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="base cases for exploration + recursive call implemented" />
   </component>
 </project>
