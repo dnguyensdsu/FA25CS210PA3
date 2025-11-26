@@ -134,6 +134,8 @@ void printPath(pair<int,int> exitcell,
     if (visited[ent_r][ent_c]) {
         return false;
     }
+    // marks that the current spot visited is visited
+    visited[ent_r][ent_c] = true;
 
     // checks if we reached the exit of the maze
     if (ent_c == exit_c && ent_r == exit_r ) {
