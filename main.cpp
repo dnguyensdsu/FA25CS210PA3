@@ -121,21 +121,17 @@ void printPath(pair<int,int> exitcell,
     int rows = maze.size();
     int cols = maze[0].size();
 
-    cout << "check 0" << endl;
     // base cases
     // checks out of bounds
     if (ent_r < 0 || ent_r >= rows || ent_c < 0 || ent_c >= cols) {
-        cout << "check 1" << endl;
         return false;
     }
     // checks wall
     if (maze[ent_r][ent_c] == 1) {
-        cout << "check 2" << endl;
         return false;
     }
     // checks if we already explored the part
     if (visited[ent_r][ent_c]) {
-        cout << "check 3" << endl;
         return false;
     }
     // marks that the current spot visited is visited
@@ -143,7 +139,6 @@ void printPath(pair<int,int> exitcell,
 
     // checks if we reached the exit of the maze
     if (ent_c == exit_c && ent_r == exit_r ) {
-        cout << "check 4" << endl;
         return true;
     }
 
@@ -159,11 +154,9 @@ void printPath(pair<int,int> exitcell,
         }
         // skips explored / blocked parts of maze
         if (maze[nextRow][nextCol] == 1) {
-            cout << "check 5" << endl;
             continue;
         }
         if (visited[nextRow][nextCol]) {
-            cout << "check 6" << endl;
             continue;
         }
 
@@ -173,7 +166,6 @@ void printPath(pair<int,int> exitcell,
 
         // recursive call
         if (dfs(nextRow, nextCol, maze, visited, parent_r, parent_c, exit_r,exit_c)) {
-            cout << "check 7" << endl;
             return true;
         }
     }
