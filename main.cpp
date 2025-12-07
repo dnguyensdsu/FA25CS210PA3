@@ -130,7 +130,7 @@ void printPath(pair<int,int> exitcell,
     if (maze[ent_r][ent_c] == 1) {
         return false;
     }
-    // checks if we already explored the part
+    // checks if we already visited
     if (visited[ent_r][ent_c]) {
         return false;
     }
