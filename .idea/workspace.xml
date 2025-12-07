@@ -26,7 +26,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbc7305d-ba4a-422b-b164-7b31f0d14320" name="Changes" comment="Debugs removed + final">
+    <list default="true" id="fbc7305d-ba4a-422b-b164-7b31f0d14320" name="Changes" comment="Final Commit.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
@@ -115,7 +115,8 @@
       <workItem from="1764293935782" duration="9000" />
       <workItem from="1764880962382" duration="608000" />
       <workItem from="1765009965414" duration="19000" />
-      <workItem from="1765150020606" duration="4000" />
+      <workItem from="1765150020606" duration="144000" />
+      <workItem from="1765150616121" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit.">
       <option name="closed" value="true" />
@@ -205,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764270486136</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Final Commit.">
+      <option name="closed" value="true" />
+      <created>1765150161053</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1765150161053</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +246,7 @@
     <MESSAGE value="Debugging checks." />
     <MESSAGE value="Added bounds checker." />
     <MESSAGE value="Debugs removed + final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Debugs removed + final" />
+    <MESSAGE value="Final Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Commit." />
   </component>
 </project>
